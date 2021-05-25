@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar {
+    position: fixed;
+    width: 280px;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+
+
+}
+.user-list {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    margin-left: 280px;
+    width: calc(100vw - 320px);
+    padding-left: 30px;
+
+}
+.user-list .user-item {
+    margin: 10px 20px ;
+}
+
+.user-info {
+    display: none;
+}
+.user-info--show {
+    display: block;   
+}
+.user-post {
+    margin-bottom: 30px;
+}
